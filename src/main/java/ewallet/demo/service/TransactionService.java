@@ -18,7 +18,7 @@ public class TransactionService {
     }
 
     // Get all transactions
-    public List<Transaction> getAllTranscations() {
+    public List<Transaction> getAllTransactions() {
         return transactionRepository.findAll();
     }
 
@@ -28,7 +28,7 @@ public class TransactionService {
     }
 
     // Update transaction
-    public Wallet updateTransaction(Long id, Transaction transactionDetails) {
+    public Transaction updateTransaction(Long id, Transaction transactionDetails) {
         Optional<Transaction> transaction = transactionRepository.findById(id);
         if (transaction.isPresent()) {
             Transaction existingTransaction = transaction.get();
@@ -45,7 +45,7 @@ public class TransactionService {
 
     // Delete transaction
     public void deleteTransaction(Long id) {
-        transctionRepository.deleteById(id);
+        transactionRepository.deleteById(id);
     }
 
     // Other business logic related to wallets

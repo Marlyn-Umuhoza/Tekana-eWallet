@@ -10,11 +10,11 @@ public class Transaction {
     private Long id;
     private int debitWalletNumber;
     private int creditWalletNumber;
-    private date date;
+    private String date;
 
     // Constructors, Getters, and Setters
 
-    public Transaction(int debitWallet,int creditWallet, date today){
+    public Transaction(int debitWallet,int creditWallet, String today){
         debitWalletNumber = debitWallet;
         creditWalletNumber = creditWallet;
         date = today;
@@ -34,10 +34,10 @@ public class Transaction {
         creditWalletNumber = creditWallet;
     }
 
-    public date getDate(){
+    public String getDate(){
         return date;
     }
-    public void setDate(date today){
+    public void setDate(String today){
         date = today;
     }
 }
