@@ -1,0 +1,13 @@
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/model/Transaction.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/service/TransactionService.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/model/Wallet.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/service/UserService.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/controller/WalletController.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/service/WalletService.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/model/User.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/controller/UserController.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/repository/TransactionRepository.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/repository/WalletRepository.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/controller/TransactionController.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/MyApplication.java
+/Users/marlyn_u/Documents/practice_code/Tekana-eWallet/src/main/java/ewallet/demo/repository/UserRepository.java
